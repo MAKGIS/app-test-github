@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "app-test-github"
+    }
+  },
+  "defaultProject": "app-test-github",
+  "cli": {
+    "analytics": false
+  }
 }

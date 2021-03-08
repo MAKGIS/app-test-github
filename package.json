@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve -o --port 4201",
+    "build": "ng b --prod --base-href https://MAKGIS.github.io/app-test-github && npx ngh --dir=dist/app-test-github",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
